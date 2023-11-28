@@ -1,4 +1,4 @@
-import { CustomError } from "./CustomError";
+import { CustomError } from "./CustomError.js";
 
 describe("Given a CustomError class", () => {
   describe("When it is instanced with the message 'Endpoint not found', the status code 404 and the public message 'Endpoint not found'", () => {
