@@ -15,5 +15,7 @@ module.exports = {
     sourceType: "module",
   },
   plugins: ["react"],
-  rules: {},
+  rules: {
+    "@typescript-eslint/naming-convention": "off",
+  },
 };
